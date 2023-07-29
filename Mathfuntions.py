@@ -19,3 +19,7 @@ x=20
 def my_function(x): 
     return x + 5 
 print(x)
+
+
+f=open("file.txt","r")
+print(f.read())
