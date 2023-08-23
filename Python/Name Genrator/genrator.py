@@ -4,10 +4,10 @@ def generate_strings(number_of_strings):
     letters = "abcdefghijklmnopqrstuvwxyz"
     generated_strings = []
     for i in range(number_of_strings):
-        first_letter = random.choice(letters)
-        second_letter = random.choice(letters)
+      #  first_letter = random.choice(letters)
+      #  second_letter = random.choice(letters)
         third_letter = random.choice(letters)
-        generated_strings.append(first_letter + second_letter + third_letter + "o")
+        generated_strings.append("Z" + "O" + third_letter )
     return generated_strings
 
 def display_skull():
