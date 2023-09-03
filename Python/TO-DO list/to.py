@@ -2,20 +2,20 @@ tasks = []
 
 def addtask(task):
     tasks.append(task)
-    print("Task {task} has been added!")
+    print(f"Task {task} has been added!")
 
 def removetask(task):
     if task in tasks:
         tasks.remove(task)
-        print("Task {task} has been removed.")
+        print(f"Task {task} has been removed.")
     else:
-        print("Task {task} not found.")
+        print(f"Task {task} not found.")
 
 def listtask():
     if tasks:
         print("Tasks:")
         for index, task in enumerate(tasks, start=1):
-            print("{index}. {task}")
+            print(f"{index}. {task}")
     else:
         print("No tasks to display.")
 
