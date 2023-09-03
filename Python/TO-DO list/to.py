@@ -9,7 +9,7 @@ def removetask(task):
         tasks.remove(task)
         print("Task {task} has been removed.")
     else:
-        print(f"Task {task} not found.")
+        print("Task {task} not found.")
 
 def listtask():
     if tasks:
