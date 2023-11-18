@@ -7,7 +7,8 @@ def generate_strings(number_of_strings):
       #  first_letter = random.choice(letters)
       #  second_letter = random.choice(letters)
         third_letter = random.choice(letters)
-        generated_strings.append("Z" + "O" + third_letter )
+        forth_letter = random.choice(letters)
+        generated_strings.append("Z" + "O" + third_letter + forth_letter )
     return generated_strings
 
 def display_skull():
